@@ -11,9 +11,138 @@ li {
 a {
   text-decoration: none;
 }
-
+body {
+  font-family: "Lato", sans-serif;
+}
 .fixed-width {
-  width: 1200px;
+  width: 1300px;
+  margin: auto;
 }
 
-/*  */
+.bg {
+  background-color: #fceef1;
+}
+
+.btn-primary {
+  background-color: #e55473;
+  color: #fff;
+  padding: 20px 45px;
+  border-radius: 8px;
+  border: 1px solid #e55473;
+  transition: 0.3s all ease-in-out;
+}
+.btn-primary:hover {
+  background-color: transparent;
+  color: #e55473;
+  border-color: #e55473;
+}
+
+/* Header CSS start */
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+
+.banner-left h1 {
+  font-size: 60px;
+  font-weight: 700;
+  color: #272727;
+}
+.banner-left p {
+  width: 75%;
+  font-size: 18px;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
+.banner-right figure img {
+  width: 440px;
+  margin-bottom: -5px;
+  padding-top: 50px;
+}
+
+/* featured section CSS */
+
+.featured {
+  padding: 120px 0px;
+}
+.featured-title {
+  text-align: center;
+}
+.featured-title h1 {
+  font-size: 40px;
+  color: #272727;
+}
+.featured-title p {
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+  font-size: 18px;
+  line-height: 25px;
+}
+.featured-it {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+.featured-item {
+  width: 33%;
+  text-align: center;
+}
+.featured-item h3 {
+  font-size: 22px;
+  text-decoration: underline;
+  color: #272727;
+}
+.featured-img {
+  margin-bottom: 25px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 100px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50% 50% 0 0;
+}
+.fitem-1 {
+  background-color: #f2dee7;
+}
+.fitem-2 {
+  background-color: #d9eff1;
+}
+.fitem-3 {
+  background-color: #e3ebdb;
+}
+
+/* extra featured CSS start */
+
+.extra-featured {
+  padding: 85px 0px;
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+}
+
+.extra-featured .extra-item h3 {
+  font-size: 18px;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #272727;
+}
+
+/* hot deal Sction CSS */
+
+.hot-deal {
+}
+.hot-deal-left {
+}
+.hot-deal-left h1 {
+}
+.hot-deal-left p {
+}
+.hot-deal-right {
+}
