@@ -1,0 +1,19 @@
+/* Global CSS */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  padding: 0px;
+}
+a {
+  text-decoration: none;
+}
+
+.fixed-width {
+  width: 1200px;
+}
+
+/*  */
