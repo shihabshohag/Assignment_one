@@ -83,7 +83,7 @@ nav {
 }
 .menu ul li a:hover {
   background-color: #f2dee7;
-  color: #000000;
+  color: #fff;
 }
 
 /* banner css start */
@@ -139,7 +139,13 @@ nav {
 .featured-item {
   width: 33%;
   text-align: center;
+  transition: 0.3s all ease-in-out;
 }
+.featured-img:hover {
+  box-shadow: 1px 5px 35px #0000005e;
+  transition: 0.3s all ease-in-out;
+}
+
 .featured-item h3 {
   font-size: 22px;
   text-decoration: underline;
@@ -252,6 +258,29 @@ nav {
   width: 25%;
   overflow: hidden;
   padding: 0px 10px;
+  transition: 0.3s all ease-in-out;
+}
+
+.social-hover {
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  transform: translateY(30px);
+  opacity: 0;
+  visibility: hidden;
+  padding: 10px 0px;
+  margin-left: 10px;
+  border-radius: 20px 20px 0px 0px;
+}
+.social-item:hover .social-hover {
+  transform: translateY(-50px);
+  opacity: 1;
+  visibility: visible;
+  transition: 0.3s all ease-in-out;
+}
+.social-hover i {
+  font-size: 30px;
+  color: #e55473;
+  margin: 0px 7px;
 }
 .social-item img {
 }
@@ -284,6 +313,13 @@ nav {
 .blog-item {
   width: 31%;
   text-align: center;
+  padding-bottom: 20px;
+  border-radius: 10px;
+}
+.blog-item:hover {
+  transform: translateY(-20px);
+  box-shadow: 1px 5px 35px #0000005e;
+  transition: 0.3s all ease-in-out;
 }
 .blog-item img {
   width: 400px;
@@ -337,22 +373,28 @@ nav {
   width: 55%;
   margin: auto;
 }
-.call-to-action input {
-}
+
 .email-input {
-  width: 79%;
-  padding: 15px 0px 15px 10px;
+  width: 75%;
+  padding: 22px 0px 22px 22px;
   border-radius: 5px;
   border: none;
   margin-right: 5px;
 }
 .submit-input {
-  width: 18%;
-  padding: 14px 13px;
+  width: 20%;
+  padding: 17px 13px;
   background-color: #e55473;
   color: #fff;
   border-radius: 5px;
   border: 1px solid #e55473;
+  font-size: 18px;
+}
+.submit-input:hover {
+  border-color: #e55473;
+  background-color: transparent;
+  color: #e55473;
+  transition: 0.3s all;
 }
 
 /* footer css start */
