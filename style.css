@@ -150,6 +150,11 @@ nav {
   font-size: 22px;
   text-decoration: underline;
   color: #272727;
+  cursor: pointer;
+}
+.featured-item h3:hover {
+  text-decoration: none;
+  transition: 0.3s all;
 }
 .featured-img {
   margin-bottom: 25px;
